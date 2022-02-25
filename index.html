@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e77c2b2c1b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <header id="main">
+        <div>
+          <div class="relative">
+            <i
+              v-on:click="nav()"
+              class="fa fa-bars is-pulled-right inline-block mt-4 mr-4 has-text-white is-size-4 is-invisible-desktop"
+            ></i>
+            <div id="mnav" class="mobileNav box mt-4 mr-4 is-invisible-desktop">
+              <ul class="has-text-primary">
+                <li><a data-scroll href="#main" id="link1">Hello</a></li>
+                <li>
+                  <a data-scroll href="#header3" id="link2">Resume</a>
+                </li>
+                <li>
+                  <a data-scroll href="#header4" id="link3">Projects</a>
+                </li>
+
+                <li>
+                  <a data-scroll href="#header5" id="link4">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <nav id="navs">
+            <div class="container">
+              <ul>
+                <li c>
+                  <a data-scroll href="#main" id="link1" class="hi">Hello</a>
+                </li>
+                <li>
+                  <a data-scroll href="#header3" id="link2">Resume</a>
+                </li>
+                <li>
+                  <a data-scroll href="#header4" id="link3">Projects</a>
+                </li>
+
+                <li>
+                  <a data-scroll href="#header5" id="link4">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="container mst">
+        <main class="main">
+          <div class="is-flex main_box">
+            <div class="main_box-image box"></div>
+            <div class="main_box-content">
+              <h1
+                id="header1"
+                class="has-text-white is-size-1 has-text-weight-bold"
+              >
+                Rohit Kumar_
+              </h1>
+              <p class="has-text-white">
+                Software Engineer , Full Stack Web Developer
+              </p>
+              <div class="main_box-content-details">
+                <div
+                  class="columns is-marginless is-paddingless is-mobile mar is-marginless"
+                >
+                  <div
+                    class="column is-paddingless is-marginless is-2-desktop is-3-mobile main_box-content-details-first"
+                  >
+                    Age :
+                  </div>
+                  <div
+                    class="column is-5 is-marginless is-paddingless main_box-content-details-second"
+                  >
+                    21
+                  </div>
+                </div>
+                <div class="columns is-mobile is-marginless mt-4">
+                  <div
+                    class="column is-2-desktop is-3-mobile is-marginless is-paddingless main_box-content-details-first"
+                  >
+                    Phone :
+                  </div>
+                  <div
+                    class="column is-5 is-marginless is-paddingless main_box-content-details-second"
+                  >
+                    + 91 6203861756
+                  </div>
+                </div>
+                <div class="columns is-mobile is-marginless mt-4">
+                  <div
+                    class="column is-2-desktop is-3-mobile is-marginless is-paddingless main_box-content-details-first"
+                  >
+                    Email :
+                  </div>
+                  <div
+                    class="column is-5 is-marginless is-paddingless main_box-content-details-second"
+                  >
+                    mailrohitkr6@gmail.com
+                  </div>
+                </div>
+              </div>
+              <div class="main_box-social is-size-4 is-flex">
+                <a
+                  class="main_box-social-item"
+                  href="https://github.com/RohitKumarGit"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  class="main_box-social-item"
+                  href="https://www.linkedin.com/in/rohit-kumar-99b697130/"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  class="main_box-social-item"
+                  href="https://twitter.com/R0HIT_7"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+        <div class="">
+          <h1 id="header2" class="headline"></h1>
+          <p class="para">
+            I am a 3rd Year Btech student at NSUT Delhi pursuing Computer
+            Science and Technology with Artificial Intelligence. I have a keen
+            interest on learning and applying modern web applications. I have
+            worked at 3 startups as Software Development Engineer ( Intern ) . I
+            have practical knowledge of almost all modern web technologies be it
+            React,Vue ,Angular , Electron , AWS etc.
+          </p>
+          <div>
+            <div
+              class="button is-primary is-rounded is-size-5 mt-6 has-text-white"
+            >
+              <i class="fas fa-file-download mr-2"></i>
+              <a
+                class="no-dec"
+                href="https://docs.google.com/document/d/1uUeCeHAMVJPuq9D_LXZeCb9ajaPvicqe4eI0r4JtAWs/edit?usp=sharing"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
+        <div class="headline" id="header3"></div>
+        <p class="para">{{intro}}</p>
+        <div class="spaced">Education</div>
+        <div class="timelines">
+          <div class="timelines-item" v-for="education in educations">
+            <div class="timelines-item-circle"></div>
+            <div class="timelines-item-head">{{education.heading}}</div>
+            <div class="timelines-item-date">{{education.time}}</div>
+            <div class="timelines-item-description">{{education.sub}}</div>
+          </div>
+        </div>
+        <div class="spaced">Experience</div>
+        <div class="timelines">
+          <div v-for="exp in experienced" class="timelines-item">
+            <div class="timelines-item-circle"></div>
+            <div class="timelines-item-head">{{exp.heading}}</div>
+            <div class="timelines-item-date">{{exp.time}}</div>
+            <div class="timelines-item-description">{{exp.sub}}</div>
+            <div class="mt-2" v-for="l in exp.links">
+              <i class="fas fa-link is-size-6 mr-4 has-text-primary"></i>
+              <a :href="l.link" class="timelines-item-link tiny">{{l.label}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="spaced">SKill set</div>
+        <div class="columns" id="progresses">
+          <div v-for="(skillar,j) in skills" class="column is-marginless">
+            <div v-for="(skill,i ) in  skillar">
+              <span class="is-inline-block tiny">{{skill.label}}</span>
+              <div :id="'skill'+ (j*5+i)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials">
+        <div class="testimonials_icon">
+          <i class="fas fa-quote-left is-size-3 mr-4"></i>
+          <span class="is-size-4"> Testimonials</span>
+
+          <i class="fas fa-quote-right is-size-3 ml-4"></i>
+        </div>
+        <div class="columns">
+          <div class="column t">
+            <div class="testimonials_box has-text-centered pb-5">
+              <div
+                class="testimonials_box_name has-text-weight-bold is-uppercase mt-5"
+              >
+                Mr Gokul Rajasekar
+              </div>
+              <div class="testimonials_box_desig tiny">
+                Director, SUSTAIN HILL PRIVATE LIMITED
+                (gokulnrajasekar@gmail.com)
+              </div>
+              <div
+                class="testimonials_box_Content pr-2 is-italic mt-4 has-text-centered"
+              >
+                Rohit’s clarity of thought was evident right from the first
+                conversation and it transcended to prompt problem solving. His
+                turn-around times, willing to learn and evolve makes him stand
+                out. He was a delight to work with as he is able to move at an
+                incredible pace while still keeping track of himself.
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div
+              class="testimonials_box has-text-centered pb-5"
+              style="margin-top: 3.5rem"
+            >
+              <div
+                class="testimonials_box_name has-text-weight-bold is-uppercase mt-5"
+              >
+                Mr John Doe
+              </div>
+              <div class="testimonials_box_desig tiny">
+                Waiting for another tesimonial :)
+              </div>
+              <div
+                class="testimonials_box_Content pr-2 is-italic mt-4 has-text-centered"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+                repellendus cupiditate quam quasi, ipsa ad temporibus ratione, s
+                ullam enim modi neque odio? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Harum nulla numquam quibusdam esse
+                minima ipsam sed explicabo perferendis dolor quam veniam,
+                dolorum accusamus sint adipisci hic. Quis illum amet odit!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="headline typewriter" id="header4"></div>
+        <div class="projects">
+          <div class="is-paddingless projects_box">
+            <div class="columns">
+              <div class="column is-3 projects-image is-paddingless"></div>
+              <div class="column is-9 projects-description p-6">
+                <div class="projects-description-headline mt-4 mb-4">
+                  Project Headline
+                </div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                incidunt ducimus harum adipisci culpa. Est possimus deserunt ut
+                veniam eaque velit quas magnam magni dicta? Quas nihil sit sunt
+                eaque.
+                <div
+                  class="tiny is-uppercase has-text-black has-text-weight-bold mt-4"
+                >
+                  Used Stack
+                </div>
+                <div>
+                  <span class="tag is-marginless is-white mb-2 box mr-4"
+                    >MERN</span
+                  >
+                  <span class="tag is-marginless is-white mb-2 box mr-4"
+                    >ML</span
+                  >
+                  <span class="tag is-marginless is-white mb-2 box mr-4"
+                    >Firebase</span
+                  >
+                  <span class="tag is-marginless is-white mb-2 box mr-4"
+                    >React</span
+                  >
+                </div>
+                <div class="tiny has-text-primary is-pulled-right">
+                  Deployment Link | GitHub
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="is-paddingless projects_box">
+            <div class="columns">
+              <div class="column is-3 projects-image"></div>
+              <div class="column is-9 projects-description p-6">
+                <div class="projects-description-headline mt-4 mb-4">
+                  Project Headline
+                </div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                incidunt ducimus harum adipisci culpa. Est possimus deserunt ut
+                veniam eaque velit quas magnam magni dicta? Quas nihil sit sunt
+                eaque.
+                <div
+                  class="tiny is-uppercase has-text-black has-text-weight-bold mt-4"
+                >
+                  Used Stack
+                </div>
+                <div>
+                  <span class="tag is-white box mt-4 mr-4">MERN</span>
+                  <span class="tag is-white box mt-4 mr-4">ML</span>
+                  <span class="tag is-white box mt-4 mr-4">Firebase</span>
+                  <span class="tag is-white box mt-4 mr-4">React</span>
+                </div>
+                <div class="tiny has-text-primary is-pulled-right">
+                  Deployment Link
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="is-paddingless projects_box">
+            <div class="columns">
+              <div class="column is-3 projects-image"></div>
+              <div class="column is-9 projects-description p-6">
+                <div class="projects-description-headline mt-4 mb-4">
+                  Project Headline
+                </div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                incidunt ducimus harum adipisci culpa. Est possimus deserunt ut
+                veniam eaque velit quas magnam magni dicta? Quas nihil sit sunt
+                eaque.
+                <div
+                  class="tiny is-uppercase has-text-black has-text-weight-bold mt-4"
+                >
+                  Used Stack
+                </div>
+                <div>
+                  <span class="tag is-white box mt-4 mr-4">MERN</span>
+                  <span class="tag is-white box mt-4 mr-4">ML</span>
+                  <span class="tag is-white box mt-4 mr-4">Firebase</span>
+                  <span class="tag is-white box mt-4 mr-4">React</span>
+                </div>
+                <div class="tiny has-text-primary is-pulled-right">
+                  Deployment Link
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="mt-6">
+        <div class="container has-text-white">
+          <div id="header5" class="headline has-text-white"></div>
+          <div class="columns">
+            <div class="column">
+              <ul class="is-size-5">
+                <li class="mt-2">
+                  <span class="has-text-weight-bold is-uppercase"
+                    >Phone : &nbsp; &nbsp;</span
+                  >
+                  + 91 6203861756
+                </li>
+                <li class="mt-2">
+                  <span class="has-text-weight-bold is-uppercase"
+                    >Email : &nbsp; &nbsp;</span
+                  >
+                  campon99@gmail.com
+                </li>
+                <li class="mt-2">
+                  <span class="has-text-weight-bold is-uppercase"
+                    >Twitter : &nbsp; &nbsp;</span
+                  >
+                  R0HIT_7
+                </li>
+                <li class="mt-2">
+                  <span class="has-text-weight-bold is-uppercase"
+                    >IG : &nbsp; &nbsp;</span
+                  >
+                  @077Rohit
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <div>
+                <div class="tiny is-size-4">Or Write a letter to me_</div>
+              </div>
+
+              <form action="https://submit-form.com/TjVR474D">
+                <input
+                  type="text"
+                  class="styled mt-2 has-text-white"
+                  placeholder="your Name"
+                  name="name"
+                  id="name"
+                />
+                <input
+                  type="email"
+                  class="styled mt-4 has-text-white"
+                  placeholder="your Email"
+                  name="email"
+                />
+                <textarea
+                  id="w3review"
+                  rows="4"
+                  class="styled mt-4"
+                  placeholder="Your Message"
+                  cols="50"
+                  name="message"
+                ></textarea>
+
+                <input
+                  value="send"
+                  type="submit"
+                  class="is-outlined spaced is-fullwidth is-secondary button is-rounded mt-4 is-expanded has-text-weight-bold is-uppercase"
+                />
+              </form>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script type="module" src="/src/main.ts"></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
+    </div>
+  </body>
+</html>
