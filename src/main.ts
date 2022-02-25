@@ -1,5 +1,5 @@
 import "./style.scss";
-
+//@ts-ignore;
 import Vue from "https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js";
 // const animation = function () {};
 import ProgressBar from "progressbar.js";
@@ -54,7 +54,7 @@ headers.forEach((val) => {
 });
 new Typed("#header2", { ...options, ...{ strings: ["Hi_"] } });
 
-var app = new Vue({
+new Vue({
   el: "#app",
   data: {
     mvisible: false,
@@ -193,7 +193,7 @@ var app = new Vue({
     window.onload = () => {
       this.checkAnimations();
     };
-    window.addEventListener("scroll", (e) => {
+    window.addEventListener("scroll", (_e) => {
       this.checkAnimations();
 
       if (window.scrollY > 44) {
