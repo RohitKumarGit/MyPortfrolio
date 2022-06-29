@@ -73,6 +73,10 @@ new Vue({
             label: "Clappia.com",
             link: "http://clappia.com/",
           },
+          {
+            label: "Experience Letter",
+            link: "https://drive.google.com/file/d/1CjnH9eRJAlN-fmWZjRcUNdltoTez67dD/view?usp=sharing",
+          },
         ],
       },
       {
