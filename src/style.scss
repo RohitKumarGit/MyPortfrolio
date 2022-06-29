@@ -265,6 +265,10 @@ $circle-radis: 1rem;
   }
   &-description {
     // outline: 0.5px solid $primary;
+    &-headline {
+      font-weight: 500;
+      color: $primary;
+    }
   }
 }
 .testimonials {
