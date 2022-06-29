@@ -60,8 +60,13 @@ new Vue({
     mvisible: false,
     experienced: [
       {
+        heading: "Research Intern @ Samsung Research Institute - Banglore ",
+        time: "Aug 2022 - ongoing",
+        sub: "Part of Network Call / OAM team. Created a Deep learning Model (LSTM) to predict real-time network traffic and prepare for it beforehand.",
+      },
+      {
         heading: "SDE Intern @ Clappia.com - Banglore ",
-        time: "June 2021 - ongoing",
+        time: "June 2021 - March 2022",
         sub: "Working on adding new features and removing bugs as and when reported using tools like AWS, AngularJS , Serverless etc",
         links: [
           {
@@ -128,13 +133,13 @@ new Vue({
     skills: [
       [
         {
-          label: "VueJS",
-          perc: 9,
+          label: "Blockchian / Etherumn / NFT's",
+          perc: 6,
           ts: true,
         },
         {
-          label: "ReactJS",
-          perc: 7,
+          label: "ReactJS / VueJS",
+          perc: 9,
           ts: true,
         },
         {
